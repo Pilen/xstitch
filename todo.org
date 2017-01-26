@@ -1,0 +1,19 @@
+
+* Symbols
+  Actually show symbols
+
+* Scale preview
+
+* Split legend into columns
+
+* Yarn lengths
+  As a minimum pixel count * multiplier
+  could also have some metric for how clumped together, grouped, spreadout the pixels are
+  Maybe some metric based on a traveling salesman heuristic?
+
+* Brightness cutoff
+  int or (int, int, int) where int in [0, 255]
+  x is converted to (x, x, x)
+
+
+  If all channels are brighter than cutoff it will be ignored
